@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacto - PC Care</title>
+    <link rel="stylesheet" href="css/FLEX4.css" />
+    <!-- Estilos propios de Contacto -->
+    <!-- Íconos (Font Awesome gratis) -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="contacto">
+      <!-- FOTO PERSONAL -->
+      <div class="contact-photo">
+        <h2>Identificación</h2>
+        <img src="imágenes/FOTO.png" alt="Foto personal" />
+        <h2>MIKE VERA</h2>
+        <p>Especialista en mantenimiento preventivo de computadoras.</p>
+        <p>Creador de este sitio web.</p>
+      </div>
+
+      <!-- INFORMACIÓN DE CONTACTO -->
+      <div class="contact-info">
+        <h2>Información de Contacto</h2>
+        <p><i class="fas fa-map-marker-alt"></i> Quito, Ecuador</p>
+        <p><i class="fas fa-phone"></i> +593 987 654 321</p>
+        <p><i class="fas fa-envelope"></i> soporte@pccare.com</p>
+      </div>
+
+      <!-- FORMULARIO -->
+      <div class="contact-form">
+        <h2>Envíame un mensaje</h2>
+        <form action="https://formspree.io/f/xvgwrplp" method="POST">
+          <input type="text" name="nombre" placeholder="Nombre" required />
+          <input
+            type="email"
+            name="email"
+            placeholder="Correo electrónico"
+            required
+          />
+          <textarea
+            name="mensaje"
+            placeholder="Escribe tu mensaje aquí..."
+            rows="6"
+            required
+          ></textarea>
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
+    </div>
+    <nav class="navegación">
+      <a href="FLEX.html">Inicio</a>
+    </nav>
+    <!-- FOOTER -->
+    <footer class="footer">
+      <p>&copy; 2025 CloudPC - Todos los derechos reservados</p>
+    </footer>
+  </body>
+</html>
